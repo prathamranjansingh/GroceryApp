@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 100%;
+  margin: auto;
+}
+
+.navbar-search-icon .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: #3bb77e;
+  border-radius: 50%;
+  top: -5px;
+  right: 18px;
+}
+
+.navbar-search-icon {
+  position: relative;
+}

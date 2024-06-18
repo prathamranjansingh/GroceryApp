@@ -1,0 +1,91 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 3%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright p {
+  font-size: 1vw;
+  color: #6e6e6e;
+}
+
+.footer-content li img {
+  margin-top: 2vw;
+  height: 2rem;
+}
+
+.list .payment img {
+  height: 1.4rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+b {
+  color: #3bb77e;
+}
+
+.list {
+  margin-top: 1.5vw;
+  text-align: left;
+  width: max(18vw, 200px);
+}
+
+.list li {
+  padding-top: 7px;
+  font-size: max(1vw, 14px);
+}
+
+.useful-links .list li {
+  cursor: pointer;
+}
+
+.useful-links .list li:hover {
+  color: #3bb77e;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo .logoText {
+  justify-content: center;
+}
+
+.footer-logo .logoText h2 {
+  font-size: max(1.5rem, 15px);
+}
+.footer-logo .logoText h1 {
+  font-size: max(2rem, 30px);
+}
+
+.flogo {
+  height: 5rem;
+  align-content: center;
+}
+
+.title h2 {
+  font-size: max(2vw, 20px);
+  font-weight: 600;
+  color: #253d4e;
+}
+
+@media (max-width: 750px) {
+  .footer-content {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  .footer-copyright {
+    text-align: center;
+  }
+}

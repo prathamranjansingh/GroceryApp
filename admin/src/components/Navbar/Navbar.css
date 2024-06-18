@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4%;
+}
+
+.navbar .logo {
+  width: max(1%, 50px);
+}
+
+.navbar .profile {
+  width: 30px;
+}
+
+.logoText h1 {
+  font-size: 1rem;
+  color: #3bb77e;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  margin-left: 4%;
+  content: contain;
+  display: flex;
+  flex-direction: column;
+}
+.logoText h2 {
+  color: #6e6e6e;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.logo {
+  height: 45px;
+  display: flex;
+}

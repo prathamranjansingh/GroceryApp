@@ -1,0 +1,38 @@
+.Explore {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title h1 {
+  color: #253d4e;
+  font-weight: 500;
+  font-size: max(1.8vw, 17px);
+}
+
+.categories ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories li {
+  font-size: max(1.3vw, 13px);
+  margin-left: 2vw;
+  cursor: pointer;
+}
+
+.categories {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #6e6e6e;
+  font-size: max(1.3vw, 13px);
+}
+
+.active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #3bb77e;
+}

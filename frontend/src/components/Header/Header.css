@@ -1,0 +1,44 @@
+.header {
+  height: 34vw;
+  margin: 30px auto;
+  background: url("/header.png") no-repeat; /* public file mein hai */
+  background-size: contain;
+  position: relative;
+  width: 90%;
+}
+
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5vw;
+  max-width: 40%;
+  bottom: 40%;
+  left: 30%;
+  transform: translateX(-50%);
+  animation: fadeIn 2s;
+}
+
+.header-title {
+  justify-content: center;
+}
+
+.header-title h2 {
+  font-size: max(
+    3vw,
+    20px
+  ); /* Use viewport width unit for responsive font size */
+  color: #253d4e;
+}
+
+.header-text p {
+  font-size: 1.3vw; /* Adjust font size for responsive paragraph */
+  color: #838383;
+}
+
+@media screen and (max-width: 768px) {
+  .header-text p {
+    display: none; /* Hide paragraph for mobile views */
+  }
+}
